@@ -45,3 +45,21 @@ document.addEventListener("DOMContentLoaded", function () {
     filtersContainer.scrollLeft += filterWidth;
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const container = document.getElementById("filters-container");
+
+  let startX;
+  let scrollLeft;
+
+  container.addEventListener("touchstart", (e) => {
+    startX = e.touches[0].pageX;
+    scrollLeft = container.scrollLeft;
+  });
+
+  container.addEventListener("touchmove", (e) => {
+    const x = e.touches[0].pageX;
+    const walk = startX - x;
+    container.scrollLeft = scrollLeft + walk;
+  });
+});

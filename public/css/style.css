@@ -376,3 +376,25 @@ body {
     background-color: white;
   }
 }
+
+#filters-container {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  align-items: center;
+}
+
+#filters {
+  display: flex;
+  width: max-content;
+}
+
+.filter {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+}
+
+#filters-container::-webkit-scrollbar {
+  display: none;
+}
