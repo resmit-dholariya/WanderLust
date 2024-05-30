@@ -138,6 +138,11 @@ body {
 
 .alert {
   margin-top: 0.5rem !important;
+  font-size: 1rem;
+  padding: 0.7rem !important;
+}
+.btn-close {
+  padding: 1rem !important;
 }
 
 #filter-wrapper {
@@ -323,6 +328,14 @@ body {
   #web-title {
     color: #fe424d !important;
     font-size: 1.6rem !important;
+  }
+  .alert {
+    margin-top: 0.5rem !important;
+    font-size: 0.9rem;
+    padding: 0.6rem !important;
+  }
+  .btn-close {
+    padding: 0.9rem !important;
   }
 
   #responsive-registration {
