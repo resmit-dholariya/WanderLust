@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/listings"><i class="fa-regular fa-compass"></i></a>
+        <div class="navbar-nav web-title">
+            <a class="nav-link" id="web-title" href="/listings"><b>WanderLust</b></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="nav-search nav-hovernav-search-search">
+                <form class="d-flex" role="search" action="/listings/search" method="get" id="searchBox">
+                    <input class="form-control me-2 search-inp" type="search"
+                        placeholder="Search Location | Title | Price" aria-label="Search" name="q" id="mySearchInput" />
+                    <button class="btn search-btn" type="submit" id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>Search
+                    </button>
+                </form>
+            </div>
+            <div class="navbar-nav">
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-circle-user"></i>&nbsp;&nbsp;&nbsp;
+                    </button>
+                    <ul class="dropdown-menu">
+                        <% if(!currUser) { %>
+                            <a class="nav-link" href="/signup"><i class="fa-solid fa-user-plus"></i>&nbsp; &nbsp;<b>Sign
+                                    up</b></a>
+                            <a class="nav-link" href="/login"><b><i class="fa-solid fa-user-check"></i>&nbsp; &nbsp;Log
+                                    in</b></a>
+                            <% } %>
+                                <% if(currUser) { %>
+                                    <h6 class="mt-1 nav-link"><b><i class="fa-solid fa-user"></i>
+                                            &nbsp; &nbsp;<%= currUser.username%>
+                                        </b></h6>
+                                    <a class="nav-link" href="/logout"><b><i
+                                                class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp; &nbsp;Log
+                                            out</b></a>
+                                    <% } %>
+                                        <hr />
+                                        <a class="nav-link" href="/listings/new"><strong><i
+                                                    class="fa-solid fa-circle-plus"></i>&nbsp; &nbsp;Airbnb your
+                                                home</strong></a>
+                    </ul>
+                </div>
+                <div id="responsive-registration">
+                    <% if(!currUser) { %>
+                        <a class="nav-link" href="/signup"><i class="fa-solid fa-user-plus"></i>&nbsp;&nbsp;<b>Sign
+                                up</b></a>
+                        <a class="nav-link" href="/login"><i class="fa-solid fa-user-check"></i>&nbsp;&nbsp;<b>Log
+                                in</b></a>
+                        <% } %>
+                            <% if(currUser) { %>
+                                <h6 class="mt-1 nav-link"><b><i class="fa-solid fa-user"></i>
+                                        &nbsp; &nbsp;<%= currUser.username%>
+                                    </b></h6>
+                                <a class="nav-link" href="/logout"><i
+                                        class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;<b>Log out</b></a>
+                                <% } %>
+                                    <a class="nav-link" href="/listings/new"><i
+                                            class="fa-solid fa-circle-plus"></i>&nbsp; &nbsp;<strong>Airbnb your
+                                            home</strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
