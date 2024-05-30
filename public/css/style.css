@@ -199,9 +199,9 @@ body {
 
 .scroll-btn {
   background-color: #fff;
-  border: 0.1rem solid #36454f;
+  border: 0.1rem solid #cccccc;
   border-radius: 50%;
-  color: black;
+  color: #a6a6a6;
   cursor: pointer;
   z-index: 10;
 }
@@ -215,7 +215,7 @@ body {
 }
 
 .tax-toggle {
-  border: 0.1rem solid black;
+  border: 0.1rem solid #a6a6a6;
   border-radius: 1rem;
   height: 3rem;
   padding: 1rem;
@@ -242,7 +242,7 @@ body {
 
   .toggle-container {
     padding: 0.5rem 1rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #a6a6a6;
     border-radius: 0.7rem;
   }
   .scroll-btn {
