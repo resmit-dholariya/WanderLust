@@ -106,7 +106,7 @@ body {
 }
 
 .show-img {
-  height: 30rem !important;
+  height: 22rem !important;
 }
 @media (max-width: 992px) {
   .show-img {
