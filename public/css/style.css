@@ -68,7 +68,7 @@ body {
 }
 
 .listing-index-img {
-  height: 40vh !important;
+  height: 17rem !important;
 }
 
 .listing-title {
@@ -106,11 +106,16 @@ body {
 }
 
 .show-img {
-  height: 50vh !important;
+  height: 30rem !important;
 }
-@media (max-width: 771px) {
+@media (max-width: 992px) {
   .show-img {
-    height: 30vh !important;
+    height: 20rem !important;
+  }
+}
+@media (max-width: 767px) {
+  .show-img {
+    height: 17rem !important;
   }
 }
 
