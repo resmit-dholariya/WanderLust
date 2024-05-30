@@ -75,14 +75,16 @@
             </div>
             <button class="scroll-btn right-btn"><i class="fa-solid fa-greater-than"></i></button>
             <div class="tax-toggle">
-                <div class="form-check-reverse form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Display total after taxes</label>
+                <div class="toggle-container">
+                    <div class="form-check-reverse form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Display total after taxes</label>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2">
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
             <% for(let listing of allListings) { %>
                 <a href="/listings/<%= listing._id%>" class="listing-link" style="text-decoration: none;">
                     <div class="card col listing-card">
