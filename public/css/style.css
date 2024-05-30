@@ -151,6 +151,7 @@ body {
   margin-top: 0.5rem !important;
   font-size: 1rem;
   padding: 0.7rem !important;
+  margin-bottom: -0.4rem;
 }
 .btn-close {
   padding: 1rem !important;
@@ -243,6 +244,10 @@ body {
     padding: 0.5rem 1rem;
     border: 0.1rem solid black;
     border-radius: 0.7rem;
+  }
+  .scroll-btn {
+    visibility: hidden;
+    margin: 0 -1.75rem;
   }
 }
 
