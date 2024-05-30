@@ -71,6 +71,12 @@ body {
   height: 14rem !important;
 }
 
+@media (max-width: 575px) {
+  .listing-index-img {
+    height: 17rem !important;
+  }
+}
+
 .listing-title {
   padding-left: 0.5rem;
 }
