@@ -148,7 +148,7 @@ const sampleListings = [
       type: "Point",
       coordinates: [11.256129, 43.771485],
     },
-    category: "Iconic-Cities",
+    category: "Historical-Homes",
     __v: 4,
   },
   {
@@ -186,7 +186,7 @@ const sampleListings = [
       type: "Point",
       coordinates: [-122.6789, 45.52068],
     },
-    category: "Rooms",
+    category: "Campsite",
     __v: 4,
   },
   {
@@ -262,7 +262,7 @@ const sampleListings = [
       coordinates: [-120.12787, 39.267319],
       type: "Point",
     },
-    category: "Beach",
+    category: "Lake",
     __v: 4,
   },
   {
@@ -338,7 +338,7 @@ const sampleListings = [
       type: "Point",
       coordinates: [7.229043, 46.096067],
     },
-    category: "Arctic",
+    category: "Ski-in-out",
     __v: 4,
   },
   {
@@ -376,7 +376,7 @@ const sampleListings = [
       coordinates: [30.536625, 38.820522],
       type: "Point",
     },
-    category: "Iconic-Cities",
+    category: "Woodlands",
     __v: 4,
   },
   {
@@ -414,7 +414,7 @@ const sampleListings = [
       type: "Point",
       coordinates: [4.9, 52.378],
     },
-    category: "Rooms",
+    category: "Historical-Homes",
     __v: 4,
   },
   {
@@ -642,7 +642,7 @@ const sampleListings = [
       coordinates: [-80.18537321875, 25.76513515625],
       type: "Point",
     },
-    category: "Beach",
+    category: "Apartment",
     __v: 4,
   },
   {
@@ -680,7 +680,7 @@ const sampleListings = [
       type: "Point",
       coordinates: [98.390863, 7.882835],
     },
-    category: "Amazing-Pools",
+    category: "Bed-and-Breakfasts",
     __v: 4,
   },
   {
@@ -794,7 +794,7 @@ const sampleListings = [
       type: "Point",
       coordinates: [-109.172599073804, 47.0725146587006],
     },
-    category: "Mountains",
+    category: "Cabins",
     __v: 4,
   },
   {
@@ -832,7 +832,7 @@ const sampleListings = [
       type: "Point",
       coordinates: [25.328008, 37.446178],
     },
-    category: "Amazing-Pools",
+    category: "New",
     __v: 5,
   },
   {
@@ -984,7 +984,7 @@ const sampleListings = [
       type: "Point",
       coordinates: [-71.5783054333969, 43.6898878153712],
     },
-    category: "Mountains",
+    category: "Countryside",
     __v: 4,
   },
   {
