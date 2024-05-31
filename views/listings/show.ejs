@@ -41,13 +41,13 @@
                     </p>
                 </div>
             </div>
-            <div class="show-btns d-flex flex-column flex-md-row justify-content-center gap-2 gap-md-3 mb-3">
+            <div class="show-btns d-flex flex-column flex-md-row justify-content-center gap-2 gap-md-3">
                 <form action="/listings/<%=listing._id%>/reservelisting" method="GET">
                     <button class="btn btn-success reserve-btn">Reserve</button>
                 </form>
             </div>
             <% if(currUser && currUser._id.equals(listing.owner._id)){ %>
-                <div class="show-btns d-flex flex-column flex-md-row justify-content-center gap-2 gap-md-3">
+                <div class="show-btns d-flex flex-column flex-md-row justify-content-center gap-2 gap-md-3 mt-3">
                     <a href="/listings/<%= listing._id %>/edit" class="btn btn-danger mb-2 mb-md-0">Edit this
                         Listing</a>
                     <form action="/listings/<%= listing._id %>?_method=DELETE" method="post">
