@@ -135,6 +135,17 @@ module.exports.search = async (req, res) => {
       country: { $regex: element, $options: "i" },
     }).sort({ _id: -1 });
     if (allListings.length != 0) {
+      res.locals.success = "Listings searched by Country!";
+      res.render("listings/index.ejs", { allListings });
+      return;
+    }
+  }
+
+  if (allListings.length == 0) {
+    allListings = await Listing.find({
+      location: { $regex: element, $options: "i" },
+    }).sort({ _id: -1 });
+    if (allListings.length != 0) {
       res.locals.success = "Listings searched by Location!";
       res.render("listings/index.ejs", { allListings });
       return;
@@ -155,7 +166,7 @@ module.exports.search = async (req, res) => {
     }
   }
   if (allListings.length == 0) {
-    req.flash("error", "No listings found based on your serach!");
+    req.flash("error", "No listings found based on your search!");
     res.redirect("/listings");
   }
 };
