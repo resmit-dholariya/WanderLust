@@ -365,6 +365,11 @@ body {
   padding: 0 1rem 0 1rem;
 }
 
+.search-btn:hover {
+  background-color: #fe424d;
+  color: #fff;
+}
+
 .search-btn i {
   display: inline;
   margin-right: 0.5rem;
