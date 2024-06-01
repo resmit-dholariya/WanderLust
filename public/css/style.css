@@ -512,3 +512,8 @@ body {
 .container {
   max-width: 95%;
 }
+
+.map-click {
+  text-align: center;
+  margin-bottom: -1rem;
+}
