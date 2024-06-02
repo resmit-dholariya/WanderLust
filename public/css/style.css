@@ -382,6 +382,10 @@ body {
   background-color: #fe424d;
   color: #fff;
 }
+.search-btn:active {
+  background-color: #fe424d !important;
+  color: #fff !important;
+}
 
 .search-btn i {
   display: inline;
