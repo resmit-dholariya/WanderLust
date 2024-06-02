@@ -142,9 +142,6 @@ body {
   .show-img {
     height: 18rem;
   }
-  .review-comment {
-    font-size: 0.8rem;
-  }
   .login-signup-form-inp {
     width: 44%;
   }
@@ -155,13 +152,17 @@ body {
     font-size: 1.1rem;
   }
 }
+
+@media (max-width: 991px) {
+  .show-img {
+    height: 21rem;
+  }
+}
+
 @media (max-width: 768px) {
   .row-cols-adjust > * {
     flex: 0 0 auto;
     width: calc(100% / 2);
-  }
-  .show-img {
-    height: 17rem;
   }
   .login-signup-form-inp {
     width: 53%;
