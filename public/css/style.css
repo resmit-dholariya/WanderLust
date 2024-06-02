@@ -107,7 +107,7 @@ body {
     height: 17rem !important;
   }
   .show-img {
-    height: 24rem;
+    height: 27rem;
   }
   .login-signup-form-inp {
     width: 32%;
@@ -126,6 +126,9 @@ body {
   .login-signup-form-inp {
     width: 37%;
   }
+  .map-click h4 {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -137,7 +140,7 @@ body {
     height: 17rem !important;
   }
   .show-img {
-    height: 16rem;
+    height: 18rem;
   }
   .review-comment {
     font-size: 0.8rem;
@@ -148,6 +151,9 @@ body {
   .new-edit-form-inp {
     width: 60%;
   }
+  .map-click h4 {
+    font-size: 1.1rem;
+  }
 }
 @media (max-width: 768px) {
   .row-cols-adjust > * {
@@ -155,13 +161,16 @@ body {
     width: calc(100% / 2);
   }
   .show-img {
-    height: 14rem;
+    height: 17rem;
   }
   .login-signup-form-inp {
     width: 53%;
   }
   .new-edit-form-inp {
     width: auto;
+  }
+  .map-click h4 {
+    font-size: 1rem;
   }
 }
 @media (max-width: 550px) {
@@ -170,13 +179,16 @@ body {
     width: calc(100% / 1);
   }
   .show-img {
-    height: 14rem;
+    height: 16rem;
   }
   .login-signup-form-inp {
     width: 69%;
   }
   .new-edit-form-inp {
     width: auto;
+  }
+  .map-click h4 {
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 480px) {
