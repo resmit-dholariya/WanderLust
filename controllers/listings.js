@@ -181,6 +181,6 @@ module.exports.destroyListing = async (req, res) => {
 
 module.exports.reserveListing = async (req, res) => {
   let { id } = req.params;
-  req.flash("success", "Reservation Details sent to your registered Email!");
+  req.flash("success", "Reservation Details sent to your Email!");
   res.redirect(`/listings/${id}`);
 };
