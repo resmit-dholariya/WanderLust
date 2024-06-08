@@ -10,7 +10,7 @@
   - 📱 **Responsive Design**: Optimized for various devices
   - 🔍 **User-friendly Interface**: For searching and listing properties
   - 🗺️ **Mapbox API Integration**: For location-based search and property mapping
-  - 
+    
 #### Back-end 🛠️
 - **Technologies Used**: Node.js, Express.js
 - **Features**:
